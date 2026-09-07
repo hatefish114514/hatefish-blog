@@ -19,13 +19,13 @@ nav:
 
 menu:
   Home: / || fas fa-home
-  Tags: /tags/ || fas fa-tags
   ShuoShuo: /shuoshuo/ || fas fa-quote-right
   List||fas fa-list:
     Music: /music/ || fas fa-music
-    Movie: /movies/ || fas fa-video
+    Movie: /movie/ || fas fa-video
+    Book: /book/ || fas fa-bookmark
+    Game: /game/ || fas fa-gamepad
     Link: /link/ || fas fa-link
-    About: /about/ || fas fa-heart
 
 
 # --------------------------------------
@@ -68,10 +68,10 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: https://i.postimg.cc/jj888vRf/blog-top.jpg
 
 # The banner image of index page
-index_img: https://i.postimg.cc/jj888vRf/blog-background.jpg
+index_img: https://i.postimg.cc/jj888vRf/blog-top.jpg
 
 # The banner image of archive page
 archive_img:
@@ -93,12 +93,12 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: rgb(255,255,255)
+footer_img: transparent
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background: 
+background: https://i.postimg.cc/HWPJZccG/blog-background.jpg
 
 cover:
   # Disable the cover or not

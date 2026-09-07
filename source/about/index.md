@@ -1,4 +1,0 @@
----
-title: 关于Hate_fish
-date: 2026-08-26
----
